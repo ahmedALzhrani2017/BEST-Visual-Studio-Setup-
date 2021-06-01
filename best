@@ -1,0 +1,17 @@
+all configuration    all platforms
+$(SolutionDir)bin\$(Platform)\$(Configuration)\
+$(SolutionDir)bin\intermediates\$(Platform)\$(Configuration)\
+
+
+$(ProjectDir)bin\$(Platform)\$(Configuration)\
+$(ProjectDir)bin\intermediates\$(Platform)\$(Configuration)\
+
+
+
+$(SolutionDir)bin\$(ProjectName)\$(Platform)\$(Configuration)\
+$(SolutionDir)bin\$(ProjectName)\intermediates\$(Platform)\$(Configuration)\
+
+
+inarhazla-A2020
+
+$(OutDir)$(TargetName)$(TargetExt)
